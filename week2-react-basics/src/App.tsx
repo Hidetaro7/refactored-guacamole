@@ -1,16 +1,15 @@
-import { useState } from 'react';
-import './index.css';
+import { useState } from "react";
+import "./index.css";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(6);
 
   return (
     <div className="App">
       <h1>React カウンター</h1>
       <p>カウント: {count}</p>
-      <button onClick={() => setCount(count + 1)}>
-        カウントアップ
-      </button>
+      <button onClick={() => setCount(count + 1)}>増やす！</button>
+      {count === 5 && <p>5回クリックしたよ！</p>}
     </div>
   );
 }
