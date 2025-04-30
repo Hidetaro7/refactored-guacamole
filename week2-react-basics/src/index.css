@@ -13,3 +13,18 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.message-container {
+  border: 2px solid #4682b4;
+  border-radius: 1rem;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+}
