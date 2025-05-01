@@ -2,7 +2,11 @@ body {
   font-family: sans-serif;
   text-align: center;
   margin: 2rem;
+<<<<<<< HEAD
   background-color: #f0f8ff;
+=======
+  background-color: white;
+>>>>>>> template/main
 }
 
 button {
@@ -12,6 +16,7 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+<<<<<<< HEAD
 }
 
 .button-container {
@@ -28,3 +33,6 @@ button {
   padding: 1rem;
   margin: 1rem;
 }
+=======
+}
+>>>>>>> template/main
